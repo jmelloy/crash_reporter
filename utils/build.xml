@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- $Id$ -->
+
+<project name="SQL Utilities" default="jar">
+
+  <target name="jar" depends="compile">
+    <mkdir dir="dist" />
+    <mkdir dir="dist/lib" />
+    <jar destfile="dist/lib/utils.jar"
+      basedir="build"/>
+  </target>
+
+  <target name="compile">
+    <mkdir dir="build" />
+    <javac srcdir="src" destdir="build" />
+  </target>
+
+  <target name="clean">
+      <delete quiet="true" includeEmptyDirs="true">
+            <fileset dir="build"/>
+            <fileset dir="dist" />
+      </delete>
+  </target>
+</project>

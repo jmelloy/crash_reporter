@@ -1,0 +1,36 @@
+<!-- $Id$ -->
+
+.dummy {
+    color: #fff;
+}
+
+.header {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colhead {
+    background-color: teal;
+    color: #fff;
+    text-align: center;
+}
+
+.rowCount {
+    background-color: #9cf;;
+    text-align: right;
+}
+
+.even {
+    background-color: #ccc;
+}
+
+.odd {
+    background-color: #fff;
+}
+
+.lineless {
+    text-decoration: none;
+    font-size: 10pt;
+}

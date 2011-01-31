@@ -1,0 +1,155 @@
+SPAN, A, BODY 
+      {
+      font-family: Lucida Grande;
+      font-size: 10px;
+      padding: 0px 0px 0px 0px; 
+      margin: 0px;
+      text-decoration: none;
+}
+
+Pre {
+    font-family: Monaco;
+    font-size: 9px;
+    }
+
+
+/* custom classes */
+
+.lineless {
+    text-decoration: none;
+}
+
+.top {
+     background-image: url(headertrans.png);
+     background-repeat: repeat;
+     position:  fixed;
+     height: 	50px;
+     left:   	0px;
+     top:	0px;
+     z-index:	10;
+     width:	100%;
+}
+
+.headTitle {
+	   font-size: 18px;
+	   color: #FFFFFF;
+	   text-align: center;
+	   padding: 20px 20px 20px 20px;
+	   text-shadow: #222 3px 3px 5px;
+       }
+
+/* ------ Navigation Tabs ------ */
+table.tabs{
+	font-size: 12px;
+}
+
+td.tab{
+	background-color: rgb(245,245,245);
+	padding: 2px 8px 2px 8px;
+	
+	border-top: solid rgb(160,160,160) 1px;
+	border-left: solid rgb(160,160,160) 1px;
+	border-bottom: solid rgb(160,160,160) 1px;
+}
+
+td.activeTab{
+	padding: 2px 8px 2px 8px;
+
+	background-color: rgb(255,255,255);
+
+	border-top: solid rgb(160,160,160) 1px;
+	border-left: solid rgb(160,160,160) 1px;
+}
+
+td.tabPadding{
+	border-left: solid rgb(160,160,160) 1px;
+	border-bottom: solid rgb(160,160,160) 1px;
+}
+
+td.tabTopPadding{
+	height: 10px;
+}
+
+td.tabLeftPadding{
+	width: 100%;
+	border-bottom: solid rgb(160,160,160) 1px;
+}
+
+
+/* ------ Content Table------- */
+
+.content {
+	 position: absolute;
+         top: 80px;
+	 padding-left: 128px;
+	 width: 80%;
+	 bottom: 25%;		
+	 font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 8pt;
+	 font-style: normal;
+	 font-weight: normal;
+	 color: #000000;
+	 text-decoration: none;
+	 text-align: justify;
+	 }
+
+.doctor {
+	width:  128px;
+	height: 128px;
+	position: fixed;
+	top: 80px;
+	}
+
+.contentTable {
+	      width: 100%;
+	      }
+
+.header {
+	  border-bottom: solid rgb( 0, 0, 0 ) 3px;
+	  font-size: 11px;
+	  }
+
+tr.evenRow {
+	   background-color: #FFFFFF; 
+	   }
+
+/* ---------- Crash pages --------- */
+
+.crashDump {
+	   width: 90%;
+	   max-width: 80%;
+	   padding: 10px 10px 10px 10px;
+}
+
+.crashTitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.buildDate {
+    float: right;
+}
+
+.crashHeader {
+    border-top: solid rgb(0,0,0) 3px;
+}
+
+.crashInfo {
+    float: right;
+    border-left: solid rgb(0,0,0) 3px;
+    border-right: solid rgb(0,0,0) 3px;
+    border-bottom: solid rgb(0,0,0) 3px;
+    padding: 5px;
+    margin-left:5px;
+    background: #fff;
+}
+
+td.valueTitle {
+	    text-align: right;
+	    font-weight: bold;
+	    white-space: nowrap;
+	    }
+
+td.value {
+	 white-space: nowrap;
+	 }
